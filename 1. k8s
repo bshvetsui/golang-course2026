@@ -1,0 +1,12 @@
+## Под не стартует или крашится
+``` bash 
+kubectl get pods -n prod // n это неймспейс
+1. Пода вообще нет / Pending → деплой не прошёл или ресурсов нет на ноде → describe, но это ближе к сценарию 1
+2. CrashLoopBackOff / Error / RESTARTS растёт → сценарий 1, describe + logs --previous
+3. Running, RESTARTS: 0, но жалобы на поведение → сценарий 2, живые логи + метрики + трейсы
+4. Пайплайн красный в GitLab ещё до деплоя → сценарий 3, это вообще не кубер
+kubectl describe pod <pod-name> -n prod    # Events внизу — самое важное
+kubectl logs <pod-name> -n prod             # текущие логи,
+kubectl logs <pod-name> -n prod --previous  # логи упавшего контейнера ДО рестарта
+kubectl logs <pod-name> -n prod -c <container> --since=10m
+```
