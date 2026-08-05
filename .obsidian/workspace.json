@@ -8,77 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7dce6e0f8a81aa5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NodeJS/Пока что пайплайн потом буду расписывать.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Пока что пайплайн потом буду расписывать"
-            }
-          },
-          {
-            "id": "376e55e858415269",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Debug ВАЖНО/1. K8S под.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. K8S под"
-            }
-          },
-          {
-            "id": "4f6190ab86daefdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gitlab/1. templates - component и inputs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. templates - component и inputs"
-            }
-          },
-          {
-            "id": "054c13c17634314d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Что хранит, как посмотреть, установить"
-            }
-          },
-          {
             "id": "978de5a4f5bd2ccd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gitlab/1. templates - component и inputs.md",
+                "file": "Аутентификация/2. OAuth 2.0 + OpenID Connect. (OIDC).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. templates - component и inputs"
+              "title": "2. OAuth 2.0 + OpenID Connect. (OIDC)"
+            }
+          },
+          {
+            "id": "7e816cecfa0af6d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Аутентификация/2. OAuth 2.0 + OpenID Connect. (OIDC).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. OAuth 2.0 + OpenID Connect. (OIDC)"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 576.5
+    "width": 299.25
   },
   "right": {
     "id": "7884edc3450c47cc",
@@ -242,16 +199,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "56471ce4a58345f3",
+  "active": "978de5a4f5bd2ccd",
   "lastOpenFiles": [
-    "Git/Основы.md",
+    "Аутентификация/1. Keycloak.md",
+    "Аутентификация/2. OAuth 2.0 + OpenID Connect. (OIDC).md",
     "NodeJS/Пока что пайплайн потом буду расписывать.md",
+    "Pasted image 20260805080437.png",
+    "Аутентификация",
+    "HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
+    "Vue/Полный цикл рендера Vue 3.md",
+    "Vue/Scheduler во Vue 3.md",
+    "Git/Основы.md",
+    "Go/5. mallocgc хранилища, 3 color, Фазы GC и Green Tea GC.md",
+    "Go/4. Scheduler - Work stealing, Netpoll, Sysmon.md",
+    "Gitlab/1. templates - component и inputs.md",
+    "Debug ВАЖНО/1. K8S под.md",
     "Untitled 1.md",
     "Git",
-    "Untitled",
-    "Debug ВАЖНО/1. K8S под.md",
-    "Gitlab/1. templates - component и inputs.md",
-    "HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
     "Go/2. errors.New(), defer func(), panic(), recover(), errors.Unwrap(), errors.Is, errors.As.md",
     "Go/1. Ahead-of-time, Порядок компиляции.md",
     "HashiCorp Vault (ВАЖНО)",
@@ -267,21 +231,16 @@
     "NodeJS",
     "Go/7. sync Mutex, RWMutex, WaitGroup, Once, Pool, Cond, Map.md",
     "Go/6. Runtime g0 gobuf gopark goready sudog polldesc.md",
-    "Go/5. mallocgc хранилища, 3 color, Фазы GC и Green Tea GC.md",
-    "Go/4. Scheduler - Work stealing, Netpoll, Sysmon.md",
     "Go/3. Переключение горутин.md",
     "Go/{photo_2026-07-26_17-57-32.jpg",
     "Go/{39ABC415-39BD-453D-99C1-5BFA3625E735}.png",
     "Go",
-    "Vue/Полный цикл рендера Vue 3.md",
-    "Vue/Scheduler во Vue 3.md",
     "9 Channel.md",
     "Тесты Frontend",
     "Vue",
     "{AB63BA9F-43E9-4385-BC42-57263DA84F0E}.png",
     "{4F9C0B24-E623-4D27-9060-442D0826C6F8}.png",
     "sudog.md",
-    "golang-course2026",
-    "Добро пожаловать.md"
+    "golang-course2026"
   ]
 }
