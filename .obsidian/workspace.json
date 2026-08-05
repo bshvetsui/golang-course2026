@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
+                "file": "Gitlab/1. templates - component и inputs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Что хранит, как посмотреть, установить"
+              "title": "1. templates - component и inputs"
             }
           }
         ],
@@ -242,17 +242,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "978de5a4f5bd2ccd",
+  "active": "56471ce4a58345f3",
   "lastOpenFiles": [
+    "Git/Основы.md",
+    "NodeJS/Пока что пайплайн потом буду расписывать.md",
+    "Untitled 1.md",
+    "Git",
+    "Untitled",
+    "Debug ВАЖНО/1. K8S под.md",
+    "Gitlab/1. templates - component и inputs.md",
+    "HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
     "Go/2. errors.New(), defer func(), panic(), recover(), errors.Unwrap(), errors.Is, errors.As.md",
     "Go/1. Ahead-of-time, Порядок компиляции.md",
-    "HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
-    "Untitled 1.md",
     "HashiCorp Vault (ВАЖНО)",
-    "Gitlab/1. templates - component и inputs.md",
     "Gitlab",
-    "Debug ВАЖНО/1. K8S под.md",
-    "NodeJS/Пока что пайплайн потом буду расписывать.md",
     "Debug ВАЖНО",
     "Go/13. Slice.md",
     "Go/12. Swiss table Map.md",
