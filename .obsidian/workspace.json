@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "990aef42b720db80",
+        "id": "4fd92788ed4cfb3d",
         "type": "tabs",
         "children": [
           {
-            "id": "978de5a4f5bd2ccd",
+            "id": "f46fdf596290ff93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Аутентификация/2. OAuth 2.0 + OpenID Connect. (OIDC).md",
+                "file": "Брокеры сообщений/2. RabbitMQ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. OAuth 2.0 + OpenID Connect. (OIDC)"
-            }
-          },
-          {
-            "id": "7e816cecfa0af6d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Аутентификация/2. OAuth 2.0 + OpenID Connect. (OIDC).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2. OAuth 2.0 + OpenID Connect. (OIDC)"
+              "title": "2. RabbitMQ"
             }
           }
         ]
@@ -94,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.25
+    "width": 288.84375
   },
   "right": {
     "id": "7884edc3450c47cc",
@@ -199,12 +185,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "978de5a4f5bd2ccd",
+  "active": "56471ce4a58345f3",
   "lastOpenFiles": [
-    "Аутентификация/1. Keycloak.md",
+    "Брокеры сообщений/1. Kafka.md",
+    "Брокеры сообщений/2. RabbitMQ.md",
+    "Untitled.md",
+    "Partition.md",
+    "Брокеры сообщений/Pasted image 20260805132232.png",
+    "Брокеры сообщений/Pasted image 20260805132200.png",
+    "Брокеры сообщений/Pasted image 20260805132136.png",
+    "Брокеры сообщений",
     "Аутентификация/2. OAuth 2.0 + OpenID Connect. (OIDC).md",
+    "Аутентификация/JWT.md",
+    "Аутентификация/Pasted image 20260805080437.png",
+    "Аутентификация/1. Keycloak.md",
     "NodeJS/Пока что пайплайн потом буду расписывать.md",
-    "Pasted image 20260805080437.png",
     "Аутентификация",
     "HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
     "Vue/Полный цикл рендера Vue 3.md",
@@ -229,18 +224,12 @@
     "Go/9. context.Background, TODO, with Cancel, Tiemout, Deadline, value, withoutCancel.md",
     "Тесты Frontend/Тестирование React, Vue.md",
     "NodeJS",
-    "Go/7. sync Mutex, RWMutex, WaitGroup, Once, Pool, Cond, Map.md",
-    "Go/6. Runtime g0 gobuf gopark goready sudog polldesc.md",
-    "Go/3. Переключение горутин.md",
     "Go/{photo_2026-07-26_17-57-32.jpg",
     "Go/{39ABC415-39BD-453D-99C1-5BFA3625E735}.png",
     "Go",
-    "9 Channel.md",
     "Тесты Frontend",
     "Vue",
     "{AB63BA9F-43E9-4385-BC42-57263DA84F0E}.png",
-    "{4F9C0B24-E623-4D27-9060-442D0826C6F8}.png",
-    "sudog.md",
-    "golang-course2026"
+    "{4F9C0B24-E623-4D27-9060-442D0826C6F8}.png"
   ]
 }
