@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Брокеры сообщений/2. RabbitMQ.md",
+                "file": "NodeJS/Пока что пайплайн потом буду расписывать.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. RabbitMQ"
+              "title": "Пока что пайплайн потом буду расписывать"
+            }
+          },
+          {
+            "id": "2a0ae8a0dce8e2aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/1.1 Синтаксис.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.1 Синтаксис"
+            }
+          },
+          {
+            "id": "75525bd5905e7eb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/1.1 Синтаксис.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.1 Синтаксис"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.84375
+    "width": 200
   },
   "right": {
     "id": "7884edc3450c47cc",
@@ -185,11 +214,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "56471ce4a58345f3",
+  "active": "75525bd5905e7eb1",
   "lastOpenFiles": [
+    "SQL/1.3 Синтаксис.md",
+    "SQL/1.1 Синтаксис.md",
+    "SQL/1.2 Синтаксис.md",
+    "SQL",
+    "NodeJS/Пока что пайплайн потом буду расписывать.md",
     "Брокеры сообщений/1. Kafka.md",
     "Брокеры сообщений/2. RabbitMQ.md",
-    "Untitled.md",
     "Partition.md",
     "Брокеры сообщений/Pasted image 20260805132232.png",
     "Брокеры сообщений/Pasted image 20260805132200.png",
@@ -199,7 +232,6 @@
     "Аутентификация/JWT.md",
     "Аутентификация/Pasted image 20260805080437.png",
     "Аутентификация/1. Keycloak.md",
-    "NodeJS/Пока что пайплайн потом буду расписывать.md",
     "Аутентификация",
     "HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
     "Vue/Полный цикл рендера Vue 3.md",
@@ -221,14 +253,11 @@
     "Go/11.Базовые, Целочисленные, Составные, Ссылочные типы, Zero values.md",
     "Go/8. Каналы hchan, select, nil.md",
     "Go/10. sync atomic Load, Store, Add, Swap, CompareAndSwap.md",
-    "Go/9. context.Background, TODO, with Cancel, Tiemout, Deadline, value, withoutCancel.md",
-    "Тесты Frontend/Тестирование React, Vue.md",
     "NodeJS",
     "Go/{photo_2026-07-26_17-57-32.jpg",
     "Go/{39ABC415-39BD-453D-99C1-5BFA3625E735}.png",
     "Go",
     "Тесты Frontend",
-    "Vue",
     "{AB63BA9F-43E9-4385-BC42-57263DA84F0E}.png",
     "{4F9C0B24-E623-4D27-9060-442D0826C6F8}.png"
   ]
