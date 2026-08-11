@@ -8,147 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f46fdf596290ff93",
+            "id": "44b75cd6388ef0ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NodeJS/Пока что пайплайн потом буду расписывать.md",
+                "file": "Паттерны микросервисов/2. коммуникация и мониторинг.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Пока что пайплайн потом буду расписывать"
+              "title": "2. коммуникация и мониторинг"
             }
           },
           {
-            "id": "2a0ae8a0dce8e2aa",
+            "id": "55dba92cdba93113",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/1.1 Синтаксис.md",
+                "file": "Паттерны микросервисов/4. Релиз.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1 Синтаксис"
-            }
-          },
-          {
-            "id": "75525bd5905e7eb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/6. CAP, CP, AP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6. CAP, CP, AP"
-            }
-          },
-          {
-            "id": "20caa949302d46d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/7. Блокировки БД.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7. Блокировки БД"
-            }
-          },
-          {
-            "id": "bf46551f85017e0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/1.2 Синтаксис.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.2 Синтаксис"
-            }
-          },
-          {
-            "id": "96f79b6a58ba2dba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/9. Репликация.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "9. Репликация"
-            }
-          },
-          {
-            "id": "1a2ec84135bc700f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/10. Виды репликаций.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10. Виды репликаций"
-            }
-          },
-          {
-            "id": "51e31a801b9cf7b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/11. Партиционирование.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "11. Партиционирование"
-            }
-          },
-          {
-            "id": "de2356dcec1a5a2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/12. Шардирование.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "12. Шардирование"
-            }
-          },
-          {
-            "id": "c90dfca87a843d24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/13. Проблемы шардирования.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "13. Проблемы шардирования"
+              "title": "4. Релиз"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -312,24 +200,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "c90dfca87a843d24",
+  "active": "55dba92cdba93113",
   "lastOpenFiles": [
-    "SQL/12. Шардирование.md",
+    "Паттерны микросервисов/1. Обмен данными.md",
+    "Паттерны микросервисов/3. Отказоустойчивость и обнаружение сервисов.md",
+    "Паттерны микросервисов/2. коммуникация и мониторинг.md",
+    "Паттерны микросервисов/4. Релиз.md",
     "SQL/13. Проблемы шардирования.md",
+    "SQL/12. Шардирование.md",
     "SQL/11. Партиционирование.md",
     "SQL/10. Виды репликаций.md",
-    "Pasted image 20260811094656.png",
     "SQL/9. Репликация.md",
-    "SQL/8. pg_stat_ Сериализуемость, Горизонт транзакций, shared_buffers.md",
-    "SQL/7. Блокировки БД.md",
     "SQL/1.2 Синтаксис.md",
+    "SQL/7. Блокировки БД.md",
+    "SQL/6. CAP, CP, AP.md",
+    "SQL/1.1 Синтаксис.md",
+    "Паттерны микросервисов",
+    "Pasted image 20260811094656.png",
+    "SQL/8. pg_stat_ Сериализуемость, Горизонт транзакций, shared_buffers.md",
     "SQL/2. EXPLAIN, EXPLAIN ANALYZE.md",
     "SQL/4. MVCC и VACUUM.md",
     "SQL/5. ACID, Как достигается, 3 уровня изоляции.md",
-    "SQL/6. CAP, CP, AP.md",
     "SQL/3. Бэкапы.md",
     "SQL/1.3 Синтаксис.md",
-    "SQL/1.1 Синтаксис.md",
     "SQL",
     "NodeJS/Пока что пайплайн потом буду расписывать.md",
     "Брокеры сообщений/1. Kafka.md",
@@ -344,10 +237,6 @@
     "Аутентификация/Pasted image 20260805080437.png",
     "Аутентификация/1. Keycloak.md",
     "Аутентификация",
-    "HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
-    "Vue/Полный цикл рендера Vue 3.md",
-    "Vue/Scheduler во Vue 3.md",
-    "Git/Основы.md",
     "Git",
     "HashiCorp Vault (ВАЖНО)",
     "Gitlab",
@@ -356,7 +245,6 @@
     "Go/{photo_2026-07-26_17-57-32.jpg",
     "Go/{39ABC415-39BD-453D-99C1-5BFA3625E735}.png",
     "Go",
-    "Тесты Frontend",
     "{AB63BA9F-43E9-4385-BC42-57263DA84F0E}.png",
     "{4F9C0B24-E623-4D27-9060-442D0826C6F8}.png"
   ]
