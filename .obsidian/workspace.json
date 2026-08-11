@@ -69,16 +69,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/8. pg_stat_.md",
+                "file": "SQL/1.2 Синтаксис.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. pg_stat_"
+              "title": "1.2 Синтаксис"
+            }
+          },
+          {
+            "id": "96f79b6a58ba2dba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/9. Репликация.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "9. Репликация"
+            }
+          },
+          {
+            "id": "1a2ec84135bc700f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/10. Виды репликаций.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10. Виды репликаций"
+            }
+          },
+          {
+            "id": "51e31a801b9cf7b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/11. Партиционирование.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11. Партиционирование"
+            }
+          },
+          {
+            "id": "de2356dcec1a5a2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/12. Шардирование.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "12. Шардирование"
+            }
+          },
+          {
+            "id": "c90dfca87a843d24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/13. Проблемы шардирования.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "13. Проблемы шардирования"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -137,7 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.89453125
+    "width": 535.47265625
   },
   "right": {
     "id": "7884edc3450c47cc",
@@ -242,17 +312,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "bf46551f85017e0c",
+  "active": "c90dfca87a843d24",
   "lastOpenFiles": [
+    "SQL/12. Шардирование.md",
+    "SQL/13. Проблемы шардирования.md",
+    "SQL/11. Партиционирование.md",
+    "SQL/10. Виды репликаций.md",
+    "Pasted image 20260811094656.png",
+    "SQL/9. Репликация.md",
+    "SQL/8. pg_stat_ Сериализуемость, Горизонт транзакций, shared_buffers.md",
     "SQL/7. Блокировки БД.md",
-    "SQL/8. pg_stat_.md",
-    "SQL/2. EXPLAIN, EXPLAIN ANALYZE.md",
-    "SQL/3. Бэкапы.md",
-    "SQL/6. CAP, CP, AP.md",
-    "SQL/5. ACID, Как достигается, 3 уровня изоляции.md",
     "SQL/1.2 Синтаксис.md",
-    "SQL/1.3 Синтаксис.md",
+    "SQL/2. EXPLAIN, EXPLAIN ANALYZE.md",
     "SQL/4. MVCC и VACUUM.md",
+    "SQL/5. ACID, Как достигается, 3 уровня изоляции.md",
+    "SQL/6. CAP, CP, AP.md",
+    "SQL/3. Бэкапы.md",
+    "SQL/1.3 Синтаксис.md",
     "SQL/1.1 Синтаксис.md",
     "SQL",
     "NodeJS/Пока что пайплайн потом буду расписывать.md",
@@ -272,11 +348,6 @@
     "Vue/Полный цикл рендера Vue 3.md",
     "Vue/Scheduler во Vue 3.md",
     "Git/Основы.md",
-    "Go/5. mallocgc хранилища, 3 color, Фазы GC и Green Tea GC.md",
-    "Go/4. Scheduler - Work stealing, Netpoll, Sysmon.md",
-    "Gitlab/1. templates - component и inputs.md",
-    "Debug ВАЖНО/1. K8S под.md",
-    "Untitled 1.md",
     "Git",
     "HashiCorp Vault (ВАЖНО)",
     "Gitlab",
