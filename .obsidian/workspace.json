@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "К8s/4. PersistentVolume, PersistentVolumeClaim.md",
+                "file": "К8s/5. PersistentVolume, PersistentVolumeClaim.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. PersistentVolume, PersistentVolumeClaim"
+              "title": "5. PersistentVolume, PersistentVolumeClaim"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "К8s/5. Передача данных между подами.md",
+                "file": "К8s/6. CNI передача данных между подами.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Передача данных между подами"
+              "title": "6. CNI передача данных между подами"
             }
           }
         ],
@@ -123,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 684.92578125
+    "width": 451.0078125
   },
   "right": {
     "id": "7884edc3450c47cc",
@@ -230,15 +230,16 @@
   },
   "active": "cdaf3c64bdeab5d6",
   "lastOpenFiles": [
-    "К8s/4. PersistentVolume, PersistentVolumeClaim.md",
-    "К8s/5. Передача данных между подами.md",
-    "ChatGPT Image Aug 13, 2026, 04_39_28 PM.png",
-    "К8s/3. Контроллерные ресурсы ReplicaSet, Deployment, statefullSet, daemonSet.md",
+    "К8s/4. CRI, CSI, CNI.md",
+    "К8s/5. PersistentVolume, PersistentVolumeClaim.md",
+    "К8s/6. CNI передача данных между подами.md",
     "К8s/2. Структура кластера k8s. Master, Worker node, kubectl kubelet, kube proxy.md",
+    "К8s/3. Контроллерные ресурсы ReplicaSet, Deployment, statefullSet, daemonSet.md",
+    "К8s/1. Что такое, какие проблемы решает.md",
+    "ChatGPT Image Aug 13, 2026, 04_39_28 PM.png",
     "Pasted image 20260813132307.png",
     "Pasted image 20260813132153.png",
     "Pasted image 20260813125811.png",
-    "К8s/1. Что такое, какие проблемы решает.md",
     "SQL/9. Репликация.md",
     "Паттерны проектирования/1. Порождающие паттерны 7.md",
     "К8s",
@@ -260,7 +261,6 @@
     "Go/7. sync Mutex, RWMutex, WaitGroup, Once, Pool, Cond, Map.md",
     "Go/6. Runtime g0 gobuf gopark goready sudog polldesc.md",
     "Go/5. mallocgc хранилища, 3 color, Фазы GC и Green Tea GC.md",
-    "Go/2. errors.New(), defer func(), panic(), recover(), errors.Unwrap(), errors.Is, errors.As.md",
     "Паттерны проектирования",
     "SQL/Pasted image 20260811094656.png",
     "Frontend",
