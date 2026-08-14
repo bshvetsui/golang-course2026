@@ -4,109 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4fd92788ed4cfb3d",
+        "id": "b806a28f4b01ac38",
         "type": "tabs",
         "children": [
           {
-            "id": "fed42fb97e47b44c",
+            "id": "a376225d0f3f2afd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "К8s/2. Структура кластера k8s. Master, Worker node, kubectl kubelet, kube proxy.md",
+                "file": "Backend/5. Паттерны микросервисов/2. коммуникация и мониторинг.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Структура кластера k8s. Master, Worker node, kubectl kubelet, kube proxy"
-            }
-          },
-          {
-            "id": "13318cba8ed7d6dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "К8s/3. Контроллерные ресурсы ReplicaSet, Deployment, statefullSet, daemonSet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Контроллерные ресурсы ReplicaSet, Deployment, statefullSet, daemonSet"
-            }
-          },
-          {
-            "id": "1c09c9171dd8ad44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "К8s/5. CSI, PersistentVolume, PersistentVolumeClaim.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5. CSI, PersistentVolume, PersistentVolumeClaim"
-            }
-          },
-          {
-            "id": "cdaf3c64bdeab5d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "К8s/6. CNI передача данных между подами.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6. CNI передача данных между подами"
-            }
-          },
-          {
-            "id": "4af49983af16a3f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "К8s/7. Volume - 5 типов, Secret и ConfigMap.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7. Volume - 5 типов, Secret и ConfigMap"
-            }
-          },
-          {
-            "id": "ff974c87400c1b45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "К8s/8. Service, 4 вида и 2 частных случая.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "8. Service, 4 вида и 2 частных случая"
-            }
-          },
-          {
-            "id": "cdbc99be305be9f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "К8s/8. Service, 4 вида и 2 частных случая.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "8. Service, 4 вида и 2 частных случая"
+              "title": "2. коммуникация и мониторинг"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.9609375
+    "width": 662.77734375
   },
   "right": {
     "id": "7884edc3450c47cc",
@@ -270,52 +185,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "cdbc99be305be9f1",
+  "active": "a376225d0f3f2afd",
   "lastOpenFiles": [
-    "К8s/9. Ingress и Ingress Controller.md",
-    "К8s/ChatGPT Image Aug 13, 2026, 04_39_28 PM.png",
-    "К8s/Pasted image 20260813125811.png",
-    "К8s/Pasted image 20260813132153.png",
-    "К8s/Pasted image 20260813132307.png",
-    "К8s/8. Service, 4 вида и 2 частных случая.md",
-    "Untitled",
-    "К8s/7. Volume - 5 типов, Secret и ConfigMap.md",
-    "К8s/1. Что такое, какие проблемы решает.md",
-    "К8s/5. CSI, PersistentVolume, PersistentVolumeClaim.md",
-    "SQL/7. Блокировки БД.md",
-    "SQL/13. Проблемы шардирования.md",
-    "К8s/6. CNI передача данных между подами.md",
-    "Vault.md",
-    "К8s/4. CRI, CSI, CNI.md",
-    "К8s/3. Контроллерные ресурсы ReplicaSet, Deployment, statefullSet, daemonSet.md",
-    "К8s/2. Структура кластера k8s. Master, Worker node, kubectl kubelet, kube proxy.md",
-    "SQL/9. Репликация.md",
-    "Паттерны проектирования/1. Порождающие паттерны 7.md",
-    "К8s",
-    "SQL/12. Шардирование.md",
-    "SQL/8. pg_stat_ Сериализуемость, Горизонт транзакций, shared_buffers.md",
-    "SQL/10. Виды репликаций.md",
-    "Go/13. Slice.md",
-    "Go/12. Swiss table Map.md",
-    "Go/11.Базовые, Целочисленные, Составные, Ссылочные типы, Zero values.md",
-    "Go/9. context.Background, TODO, with Cancel, Tiemout, Deadline, value, withoutCancel.md",
-    "Go/8. Каналы hchan, select, nil.md",
-    "Debug ВАЖНО/1. K8S под.md",
-    "Паттерны проектирования/2. Структурные паттерны 8.md",
-    "Паттерны проектирования/3. Поведенческие паттерны 5.md",
-    "Паттерны проектирования",
-    "SQL/Pasted image 20260811094656.png",
-    "Frontend",
-    "Паттерны микросервисов",
-    "SQL",
-    "Брокеры сообщений/Pasted image 20260805132232.png",
-    "Брокеры сообщений/Pasted image 20260805132200.png",
-    "Брокеры сообщений/Pasted image 20260805132136.png",
-    "Брокеры сообщений",
-    "Аутентификация/Pasted image 20260805080437.png",
-    "Аутентификация",
-    "Git",
-    "HashiCorp Vault (ВАЖНО)",
-    "Go/{photo_2026-07-26_17-57-32.jpg"
+    "Backend/5. Паттерны микросервисов/1. Обмен данными.md",
+    "Backend/5. Паттерны микросервисов/4. Релиз 4 вида.md",
+    "Backend/3. Брокеры сообщений/1. Kafka.md",
+    "Backend/4. Аутентификация/3. JWT.md",
+    "Backend/3. Брокеры сообщений/2. RabbitMQ.md",
+    "Backend/2. SQL/13. Проблемы шардирования.md",
+    "Backend/2. SQL/12. Шардирование.md",
+    "Backend/2. SQL/11. Партиционирование.md",
+    "Backend/2. SQL/10. Виды репликаций.md",
+    "Backend/2. SQL/9. Репликация, PgBouncer.md",
+    "Backend/2. SQL/8. pg_stat_ Сериал-линеаризуемость, Горизонт транзакций, shared_buffers.md",
+    "Backend/2. SQL/7. Блокировки. строка 4,  таблица.md",
+    "Backend/2. SQL/6. CAP, CP, AP.md",
+    "Backend/2. SQL/5. ACID, Как достигается, 3 уровня изоляции.md",
+    "Backend/2. SQL/4. MVCC и VACUUM, bloat.md",
+    "Backend/2. SQL/3. Виды backup 5, WAL, RPO, RTO.md",
+    "Backend/2. SQL/1.3 ALTER TABLE, CR TRIGGER , WHERE EXISTS, NULLIF,  CR FUNCTION, CR VIEW, JSONB.md",
+    "Backend/2. SQL/1.1 SELECT, FROM, WHERE, LIKE, LIMIT, JOIN, GROUP BY, HAVING.md",
+    "Backend/2. SQL/1.2 OVER, WITH AS, Transactions, CASE WHEN, Constraints.md",
+    "Backend/7. Собеседования/AnyQuery 350k middle senior failed.md",
+    "Backend/7. Собеседования/senior-райфазен-банк(done).mp3.md",
+    "Devops/images/Pasted image 20260813132307.png",
+    "Devops/images/Pasted image 20260813132153.png",
+    "Devops/images/Pasted image 20260813125811.png",
+    "Devops/images/ChatGPT Image Aug 13, 2026, 04_39_28 PM.png",
+    "Backend/images/Pasted image 20260805132232.png",
+    "Backend/images/Pasted image 20260805132200.png",
+    "Backend/images/Pasted image 20260805132136.png",
+    "Backend/images/Pasted image 20260805080437.png",
+    "Backend/images/Pasted image 20260811094656.png",
+    "Backend/images/{photo_2026-07-26_17-57-32.jpg",
+    "Devops/5. Debug ВАЖНО/2. Под не стартует или крашится.md",
+    "Devops/5. Debug ВАЖНО/1. K8S под.md",
+    "Devops/4. HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
+    "Devops/3. Gitlab/1. templates - component и inputs.md",
+    "Devops/2. Git/Основы.md",
+    "Devops/images",
+    "Devops/5. Debug ВАЖНО",
+    "Devops/4. HashiCorp Vault (ВАЖНО)",
+    "Devops/3. Gitlab",
+    "Devops/2. Git",
+    "Devops/1. К8s",
+    "Devops",
+    "Backend/1. Go/Go",
+    "Backend/images",
+    "Backend/7. Собеседования"
   ]
 }
