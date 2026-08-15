@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/5. Паттерны микросервисов/2. коммуникация и мониторинг.md",
+                "file": "Devops/7. Сети/2. TCP, UDP, QUIC, DNS, TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. коммуникация и мониторинг"
+              "title": "2. TCP, UDP, QUIC, DNS, TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP"
             }
           }
         ]
@@ -63,7 +63,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 662.77734375
+    "width": 349.55078125,
+    "collapsed": true
   },
   "right": {
     "id": "7884edc3450c47cc",
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Error, Panic, Recover.md",
+                "file": "Devops/7. Сети/2. TCP, UDP, QUIC, DNS, TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для 2. Error, Panic, Recover"
+              "title": "Backlinks"
             }
           },
           {
@@ -187,27 +188,34 @@
   },
   "active": "a376225d0f3f2afd",
   "lastOpenFiles": [
-    "Backend/5. Паттерны микросервисов/1. Обмен данными.md",
-    "Backend/5. Паттерны микросервисов/4. Релиз 4 вида.md",
-    "Backend/3. Брокеры сообщений/1. Kafka.md",
+    "Devops/7. Сети/1. TCP-IP, L2-L4, Подсети, ARP, VLAN, Routing, NAT, ICMP, Traceroute, Anycast.md",
+    "Devops/7. Сети/2. TCP, UDP, QUIC, DNS, TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP.md",
+    "Devops/6. Примочки кубовые ВАЖНО/3. Подключение Grafana.md",
+    "Devops/7. Сети/1. TCP-IP, L2-L4, Подсети, ARP, VLAN, Routing, NAT, ICMP, Traceroute, Anycast, TCP, UDP, QUIC, DNS.md",
+    "Devops/7. Сети/2. TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP.md",
+    "Devops/7. Сети/Untitled.md",
+    "Devops/6. Примочки кубовые ВАЖНО/4. Kafka NATS RabbitMQ.md",
+    "Devops/6. Примочки кубовые ВАЖНО/Сети.md",
+    "Devops/7. Сети",
+    "Devops/6. Примочки кубовые ВАЖНО/1. Istio - Traffic Management, Load Balancing, Retries, Timeout, Circuit Breaker, Outlier Detection, Connection Pool.md",
+    "Devops/1. К8s/13. RBAC.md",
+    "Devops/1. К8s/14. Job и CronJob.md",
+    "Devops/6. Примочки кубовые ВАЖНО/2. Istio - Routing, VirtualService, DestinationRule, Subsets, mTLS, Workload Identity, AuthorizationPolicy, JWT Authentication, Observability, Fault Injection, Ingress, Egress, ServiceEntry.md",
+    "Devops/Примочки кубовые ВАЖНО/Istio.md",
+    "Devops/6. Примочки кубовые ВАЖНО",
+    "Devops/1. К8s/12. Affinity, Anti-Affinity.md",
+    "Devops/1. К8s/11. Requests, Limits, QoS.md",
+    "Devops/1. К8s/8. Service, 4 вида и 2 частных случая.md",
+    "Devops/4. HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
+    "Devops/3. Gitlab/1. templates - component и inputs.md",
+    "Backend/6. Паттерны проектирования/3. Command Strategy Observer Visitor Interpreter.md",
+    "Backend/6. Паттерны проектирования/1. Singleton, Factory, Abstract Factory, Prototype, Object Pool, Lazy Initialization, Multiton.md",
+    "Backend/6. Паттерны проектирования/2. Composite, Decorator, Facade, Adapter, Bridge, Flyweight, proxy, Front Controller.md",
+    "Backend/4. Аутентификация/2. OAuth 2.0 + OpenID Connect. (OIDC).md",
+    "Backend/4. Аутентификация/1. Keycloak.md",
     "Backend/4. Аутентификация/3. JWT.md",
-    "Backend/3. Брокеры сообщений/2. RabbitMQ.md",
-    "Backend/2. SQL/13. Проблемы шардирования.md",
-    "Backend/2. SQL/12. Шардирование.md",
-    "Backend/2. SQL/11. Партиционирование.md",
-    "Backend/2. SQL/10. Виды репликаций.md",
-    "Backend/2. SQL/9. Репликация, PgBouncer.md",
-    "Backend/2. SQL/8. pg_stat_ Сериал-линеаризуемость, Горизонт транзакций, shared_buffers.md",
-    "Backend/2. SQL/7. Блокировки. строка 4,  таблица.md",
-    "Backend/2. SQL/6. CAP, CP, AP.md",
-    "Backend/2. SQL/5. ACID, Как достигается, 3 уровня изоляции.md",
-    "Backend/2. SQL/4. MVCC и VACUUM, bloat.md",
-    "Backend/2. SQL/3. Виды backup 5, WAL, RPO, RTO.md",
-    "Backend/2. SQL/1.3 ALTER TABLE, CR TRIGGER , WHERE EXISTS, NULLIF,  CR FUNCTION, CR VIEW, JSONB.md",
-    "Backend/2. SQL/1.1 SELECT, FROM, WHERE, LIKE, LIMIT, JOIN, GROUP BY, HAVING.md",
-    "Backend/2. SQL/1.2 OVER, WITH AS, Transactions, CASE WHEN, Constraints.md",
-    "Backend/7. Собеседования/AnyQuery 350k middle senior failed.md",
-    "Backend/7. Собеседования/senior-райфазен-банк(done).mp3.md",
+    "Backend/5. Паттерны микросервисов/4. Релиз 4 вида.md",
+    "Backend/5. Паттерны микросервисов/2. API Gateway, BBF, Servise Mesh, RR vs Event-driven, Health Check, centred logging, Distributed Tracing.md",
     "Devops/images/Pasted image 20260813132307.png",
     "Devops/images/Pasted image 20260813132153.png",
     "Devops/images/Pasted image 20260813125811.png",
@@ -218,11 +226,6 @@
     "Backend/images/Pasted image 20260805080437.png",
     "Backend/images/Pasted image 20260811094656.png",
     "Backend/images/{photo_2026-07-26_17-57-32.jpg",
-    "Devops/5. Debug ВАЖНО/2. Под не стартует или крашится.md",
-    "Devops/5. Debug ВАЖНО/1. K8S под.md",
-    "Devops/4. HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
-    "Devops/3. Gitlab/1. templates - component и inputs.md",
-    "Devops/2. Git/Основы.md",
     "Devops/images",
     "Devops/5. Debug ВАЖНО",
     "Devops/4. HashiCorp Vault (ВАЖНО)",
@@ -230,8 +233,6 @@
     "Devops/2. Git",
     "Devops/1. К8s",
     "Devops",
-    "Backend/1. Go/Go",
-    "Backend/images",
-    "Backend/7. Собеседования"
+    "Backend/1. Go/Go"
   ]
 }
