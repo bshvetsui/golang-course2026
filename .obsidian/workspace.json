@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a376225d0f3f2afd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Devops/1. К8s/15. readinessProbe, livenessProbe, startupProbe.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "15. readinessProbe, livenessProbe, startupProbe"
-            }
-          },
-          {
             "id": "85e1d45a222a8b14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops/7. Сети/2. TCP, UDP, QUIC, DNS, TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP.md",
+                "file": "Devops/9. Terraform/1. vs Ansible, Провайдер, структура .tf файлов, tfstate - drift, блокировка.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. TCP, UDP, QUIC, DNS, TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP"
+              "title": "1. vs Ansible, Провайдер, структура .tf файлов, tfstate - drift, блокировка"
+            }
+          },
+          {
+            "id": "89a21610d5fdb52b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devops/9. Terraform/4. Примеры задач.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Примеры задач"
             }
           }
         ],
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 781.453125
+    "width": 583.19140625
   },
   "right": {
     "id": "7884edc3450c47cc",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/7. Сети/2. TCP, UDP, QUIC, DNS, TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP.md",
+                "file": "Devops/8. Ansible/1. Зачем нужен, что делает.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,10 +200,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "85e1d45a222a8b14",
+  "active": "89a21610d5fdb52b",
   "lastOpenFiles": [
-    "Devops/7. Сети/1. TCP-IP, L2-L4, Подсети, ARP, VLAN, Routing, NAT, ICMP, Traceroute, Anycast.md",
+    "Devops/9. Terraform/3. Структура AWS провайдера.md",
+    "Devops/9. Terraform/4. Примеры задач.md",
+    "Devops/9. Terraform/1. vs Ansible, Провайдер, структура .tf файлов, tfstate - drift, блокировка.md",
+    "Devops/8. Ansible/2. Примитивы. Inventory, Task, Play, Playbook, Role (6), Facts.md",
+    "Devops/9. Terraform/2. Terragrunt.md",
+    "Backend/4. Аутентификация/1. Keycloak, Casdoor.md",
+    "Devops/4. HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
+    "Devops/6. Примочки кубовые ВАЖНО/4. Kafka NATS RabbitMQ.md",
+    "Devops/1. К8s/1. Что такое, какие проблемы решает.md",
+    "Devops/9. Terraform",
+    "Devops/8. Ansible/1. Зачем нужен, идемпотентность, pull push модель.md",
     "Devops/7. Сети/2. TCP, UDP, QUIC, DNS, TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP.md",
+    "Devops/8. Ansible",
+    "Devops/7. Сети/1. TCP-IP, L2-L4, Подсети, ARP, VLAN, Routing, NAT, ICMP, Traceroute, Anycast.md",
     "Devops/1. К8s/10. nodeSelector, nodeName, Taint, Toleration.md",
     "Devops/1. К8s/15. readinessProbe, livenessProbe, startupProbe.md",
     "Devops/1. К8s/12. Affinity, Anti-Affinity.md",
@@ -215,21 +227,11 @@
     "Devops/7. Сети/1. TCP-IP, L2-L4, Подсети, ARP, VLAN, Routing, NAT, ICMP, Traceroute, Anycast, TCP, UDP, QUIC, DNS.md",
     "Devops/7. Сети/2. TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP.md",
     "Devops/7. Сети/Untitled.md",
-    "Devops/6. Примочки кубовые ВАЖНО/4. Kafka NATS RabbitMQ.md",
     "Devops/6. Примочки кубовые ВАЖНО/Сети.md",
     "Devops/7. Сети",
     "Devops/6. Примочки кубовые ВАЖНО/1. Istio - Traffic Management, Load Balancing, Retries, Timeout, Circuit Breaker, Outlier Detection, Connection Pool.md",
     "Devops/1. К8s/13. RBAC.md",
-    "Devops/6. Примочки кубовые ВАЖНО/2. Istio - Routing, VirtualService, DestinationRule, Subsets, mTLS, Workload Identity, AuthorizationPolicy, JWT Authentication, Observability, Fault Injection, Ingress, Egress, ServiceEntry.md",
-    "Devops/Примочки кубовые ВАЖНО/Istio.md",
     "Devops/6. Примочки кубовые ВАЖНО",
-    "Devops/1. К8s/11. Requests, Limits, QoS.md",
-    "Devops/1. К8s/8. Service, 4 вида и 2 частных случая.md",
-    "Devops/4. HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
-    "Devops/3. Gitlab/1. templates - component и inputs.md",
-    "Backend/6. Паттерны проектирования/3. Command Strategy Observer Visitor Interpreter.md",
-    "Backend/6. Паттерны проектирования/1. Singleton, Factory, Abstract Factory, Prototype, Object Pool, Lazy Initialization, Multiton.md",
-    "Backend/6. Паттерны проектирования/2. Composite, Decorator, Facade, Adapter, Bridge, Flyweight, proxy, Front Controller.md",
     "Devops/images/Pasted image 20260813132307.png",
     "Devops/images/Pasted image 20260813132153.png",
     "Devops/images/Pasted image 20260813125811.png",
@@ -245,8 +247,6 @@
     "Devops/4. HashiCorp Vault (ВАЖНО)",
     "Devops/3. Gitlab",
     "Devops/2. Git",
-    "Devops/1. К8s",
-    "Devops",
-    "Backend/1. Go/Go"
+    "Devops/1. К8s"
   ]
 }
