@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b806a28f4b01ac38",
+        "id": "b395a1cf64669afc",
         "type": "tabs",
         "children": [
           {
-            "id": "85e1d45a222a8b14",
+            "id": "4103a857575bcb34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops/9. Terraform/1. vs Ansible, Провайдер, структура .tf файлов, tfstate - drift, блокировка.md",
+                "file": "Backend/1. Go/8. Каналы hchan, select, nil.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. vs Ansible, Провайдер, структура .tf файлов, tfstate - drift, блокировка"
-            }
-          },
-          {
-            "id": "89a21610d5fdb52b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Devops/9. Terraform/4. Примеры задач.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Примеры задач"
+              "title": "8. Каналы hchan, select, nil"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 583.19140625
+    "width": 442.30078125
   },
   "right": {
     "id": "7884edc3450c47cc",
@@ -200,53 +185,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "89a21610d5fdb52b",
+  "active": "4103a857575bcb34",
   "lastOpenFiles": [
-    "Devops/9. Terraform/3. Структура AWS провайдера.md",
-    "Devops/9. Terraform/4. Примеры задач.md",
-    "Devops/9. Terraform/1. vs Ansible, Провайдер, структура .tf файлов, tfstate - drift, блокировка.md",
-    "Devops/8. Ansible/2. Примитивы. Inventory, Task, Play, Playbook, Role (6), Facts.md",
-    "Devops/9. Terraform/2. Terragrunt.md",
-    "Backend/4. Аутентификация/1. Keycloak, Casdoor.md",
-    "Devops/4. HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
-    "Devops/6. Примочки кубовые ВАЖНО/4. Kafka NATS RabbitMQ.md",
-    "Devops/1. К8s/1. Что такое, какие проблемы решает.md",
-    "Devops/9. Terraform",
-    "Devops/8. Ansible/1. Зачем нужен, идемпотентность, pull push модель.md",
-    "Devops/7. Сети/2. TCP, UDP, QUIC, DNS, TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP.md",
-    "Devops/8. Ansible",
-    "Devops/7. Сети/1. TCP-IP, L2-L4, Подсети, ARP, VLAN, Routing, NAT, ICMP, Traceroute, Anycast.md",
-    "Devops/1. К8s/10. nodeSelector, nodeName, Taint, Toleration.md",
-    "Devops/1. К8s/15. readinessProbe, livenessProbe, startupProbe.md",
-    "Devops/1. К8s/12. Affinity, Anti-Affinity.md",
-    "Devops/1. К8s/16. serviseMonitor, init-контейнер.md",
-    "Devops/1. К8s/14. Job и CronJob.md",
-    "Backend/4. Аутентификация/2. OAuth 2.0 + OpenID Connect. (OIDC).md",
-    "Backend/4. Аутентификация/4. Basic auth.md",
-    "Devops/6. Примочки кубовые ВАЖНО/3. Подключение Grafana.md",
-    "Devops/7. Сети/1. TCP-IP, L2-L4, Подсети, ARP, VLAN, Routing, NAT, ICMP, Traceroute, Anycast, TCP, UDP, QUIC, DNS.md",
-    "Devops/7. Сети/2. TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP.md",
-    "Devops/7. Сети/Untitled.md",
-    "Devops/6. Примочки кубовые ВАЖНО/Сети.md",
-    "Devops/7. Сети",
-    "Devops/6. Примочки кубовые ВАЖНО/1. Istio - Traffic Management, Load Balancing, Retries, Timeout, Circuit Breaker, Outlier Detection, Connection Pool.md",
-    "Devops/1. К8s/13. RBAC.md",
-    "Devops/6. Примочки кубовые ВАЖНО",
-    "Devops/images/Pasted image 20260813132307.png",
-    "Devops/images/Pasted image 20260813132153.png",
-    "Devops/images/Pasted image 20260813125811.png",
+    "Backend/1. Go/7. sync Mutex, RWMutex, WaitGroup, Once, Pool, Cond, Map.md",
+    "Backend/1. Go/6. Runtime g0 gobuf gopark goready sudog polldesc.md",
+    "Backend/1. Go/10. sync atomic Load, Store, Add, Swap, CompareAndSwap.md",
+    "Devops/10. Linux ВАЖНО/Управление процессами. ps aux, PID, PPID, kill, pkill, Зомби и Сироты, top, htop.md",
+    "Devops/10. Linux ВАЖНО/Linux kernel (ядро).md",
+    "Devops/10. Linux ВАЖНО/1. Linux - самые нужные команды и утилиты.md",
+    "Devops/10. Linux ВАЖНО/8. Пакеты, ELF и динамические библиотеки.md",
+    "Devops/10. Linux ВАЖНО/7. Bash для Linux-администратора.md",
+    "Devops/10. Linux ВАЖНО/6. CPU, память и дисковый IO.md",
+    "Devops/10. Linux ВАЖНО/5. Пользователи, PAM, права, ACL и capabilities.md",
+    "Devops/10. Linux ВАЖНО/4. Загрузка Linux, systemd и системные логи.md",
+    "Devops/10. Linux ВАЖНО/3. Диски, разделы, RAID, LVM и монтирование.md",
+    "Devops/10. Linux ВАЖНО/2. Директории, основные dir. inode, dentry и ссылки.md",
+    "Devops/1. К8s/11. Requests, Limits, QoS.md",
+    "Devops/10. Linux ВАЖНО/8. Namespaces, cgroups и устройство Linux-контейнеров.md",
+    "Devops/10. Linux ВАЖНО/7. Bash, переменные, потоки, пакеты и планировщики.md",
+    "Devops/10. Linux ВАЖНО/6. CPU, память, дисковый IO и диагностика производительности.md",
+    "Devops/10. Linux ВАЖНО/5. Пользователи, права, ACL, sudo и защита хоста.md",
+    "Devops/10. Linux ВАЖНО/4. Загрузка Linux, systemd, службы и journald.md",
+    "Devops/10. Linux ВАЖНО/3. Сеть Linux, TCP-IP, маршрутизация, DNS и firewall.md",
+    "Devops/10. Linux ВАЖНО/2. Файловые системы, inode, ссылки, mount и LVM.md",
+    "Devops/10. Linux ВАЖНО/10. Linux ВАЖНО.md",
+    "Devops/2. Git/Основы.md",
+    "Devops/3. Gitlab/2. Развернутая схема (без templates) - Frontend.md",
+    "Devops/10. Linux ВАЖНО",
+    "Backend/7. Собеседования/senior-райфазен-банк(done).mp3.md",
+    "Backend/7. Собеседования/AnyQuery 350k middle senior failed.md",
     "Devops/images/ChatGPT Image Aug 13, 2026, 04_39_28 PM.png",
+    "Devops/images/Pasted image 20260813125811.png",
+    "Devops/images/Pasted image 20260813132153.png",
+    "Devops/images/Pasted image 20260813132307.png",
+    "Backend/images/Pasted image 20260811094656.png",
     "Backend/images/Pasted image 20260805132232.png",
     "Backend/images/Pasted image 20260805132200.png",
     "Backend/images/Pasted image 20260805132136.png",
     "Backend/images/Pasted image 20260805080437.png",
-    "Backend/images/Pasted image 20260811094656.png",
+    "Devops/9. Terraform",
+    "Devops/8. Ansible",
+    "Devops/7. Сети",
+    "Devops/6. Примочки кубовые ВАЖНО",
     "Backend/images/{photo_2026-07-26_17-57-32.jpg",
     "Devops/images",
     "Devops/5. Debug ВАЖНО",
     "Devops/4. HashiCorp Vault (ВАЖНО)",
     "Devops/3. Gitlab",
-    "Devops/2. Git",
-    "Devops/1. К8s"
+    "Devops/2. Git"
   ]
 }
