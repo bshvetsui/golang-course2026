@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/1. Go/8. Каналы hchan, select, nil.md",
+                "file": "Backend/1. Go/9. context.Background, TODO, with Cancel, Tiemout, Deadline, value, withoutCancel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Каналы hchan, select, nil"
+              "title": "9. context.Background, TODO, with Cancel, Tiemout, Deadline, value, withoutCancel"
             }
           }
         ]
@@ -187,6 +187,14 @@
   },
   "active": "4103a857575bcb34",
   "lastOpenFiles": [
+    "Backend/2. SQL/1.3 ALTER TABLE, CR TRIGGER , WHERE EXISTS, NULLIF,  CR FUNCTION, CR VIEW, JSONB.md",
+    "Backend/3. Брокеры сообщений/2. RabbitMQ.md",
+    "Backend/3. Брокеры сообщений/1. Kafka.md",
+    "Backend/1. Go/4. Scheduler - Work stealing, Netpoll, Sysmon.md",
+    "Backend/1. Go/9. context.Background, TODO, with Cancel, Tiemout, Deadline, value, withoutCancel.md",
+    "Backend/1. Go/3. Переключение горутин.md",
+    "Backend/1. Go/5. mallocgc хранилища, 3 color, Фазы GC и Green Tea GC.md",
+    "Backend/1. Go/8. Каналы hchan, select, nil.md",
     "Backend/1. Go/7. sync Mutex, RWMutex, WaitGroup, Once, Pool, Cond, Map.md",
     "Backend/1. Go/6. Runtime g0 gobuf gopark goready sudog polldesc.md",
     "Backend/1. Go/10. sync atomic Load, Store, Add, Swap, CompareAndSwap.md",
@@ -205,15 +213,7 @@
     "Devops/10. Linux ВАЖНО/7. Bash, переменные, потоки, пакеты и планировщики.md",
     "Devops/10. Linux ВАЖНО/6. CPU, память, дисковый IO и диагностика производительности.md",
     "Devops/10. Linux ВАЖНО/5. Пользователи, права, ACL, sudo и защита хоста.md",
-    "Devops/10. Linux ВАЖНО/4. Загрузка Linux, systemd, службы и journald.md",
-    "Devops/10. Linux ВАЖНО/3. Сеть Linux, TCP-IP, маршрутизация, DNS и firewall.md",
-    "Devops/10. Linux ВАЖНО/2. Файловые системы, inode, ссылки, mount и LVM.md",
-    "Devops/10. Linux ВАЖНО/10. Linux ВАЖНО.md",
-    "Devops/2. Git/Основы.md",
-    "Devops/3. Gitlab/2. Развернутая схема (без templates) - Frontend.md",
     "Devops/10. Linux ВАЖНО",
-    "Backend/7. Собеседования/senior-райфазен-банк(done).mp3.md",
-    "Backend/7. Собеседования/AnyQuery 350k middle senior failed.md",
     "Devops/images/ChatGPT Image Aug 13, 2026, 04_39_28 PM.png",
     "Devops/images/Pasted image 20260813125811.png",
     "Devops/images/Pasted image 20260813132153.png",
