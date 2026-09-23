@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/1. Go/9. context.Background, TODO, with Cancel, Tiemout, Deadline, value, withoutCancel.md",
+                "file": "Devops/CNI/Cilium.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. context.Background, TODO, with Cancel, Tiemout, Deadline, value, withoutCancel"
+              "title": "Cilium"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.30078125
+    "width": 364.69921875
   },
   "right": {
     "id": "7884edc3450c47cc",
@@ -187,32 +187,38 @@
   },
   "active": "4103a857575bcb34",
   "lastOpenFiles": [
+    "Devops/images/Pasted image 20260923101207.png",
+    "Devops/images/Pasted image 20260923101114.png",
+    "Devops/CNI/Calico.md",
+    "Devops/CNI/Cilium.md",
+    "Pasted image 20260923101207.png",
+    "Pasted image 20260923101114.png",
+    "Devops/1. К8s/6. CNI передача данных между подами.md",
+    "Devops/1. К8s/10. nodeSelector, nodeName, Taint, Toleration.md",
+    "Devops/1. К8s/11. Requests, Limits, QoS.md",
+    "Devops/1. К8s/5. CSI, PersistentVolume, PersistentVolumeClaim.md",
+    "Devops/1. К8s/4. CRI, CSI, CNI.md",
+    "Devops/1. К8s/8. Service, 4 вида и 2 частных случая.md",
+    "Devops/CNI/Flannel.md",
+    "Devops/1. К8s/2. Структура кластера k8s. Master, Worker node, kubectl kubelet, kube proxy.md",
+    "Devops/1. К8s/3. Контроллерные ресурсы ReplicaSet, Deployment, statefullSet, daemonSet.md",
+    "Devops/1. К8s/1. Что такое, какие проблемы решает.md",
+    "Devops/7. Сети/2. TCP, UDP, QUIC, DNS, TLS, SSH, HTTP, HTTPS, Load Balancing, Dynamic Routing, BGP.md",
+    "Devops/4. HashiCorp Vault (ВАЖНО)/1. Что хранит, как посмотреть, установить.md",
+    "Devops/CNI",
+    "Backend/2. SQL/13. Проблемы шардирования.md",
+    "Backend/2. SQL/12. Шардирование.md",
+    "Аналитика/вопросы.md",
+    "Untitled.md",
+    "Backend/2. SQL/1.2 OVER, WITH AS, Transactions, CASE WHEN, Constraints.md",
+    "Backend/1. Go/9. context.Background, TODO, with Cancel, Tiemout, Deadline, value, withoutCancel.md",
+    "Untitled",
+    "Аналитика",
     "Backend/2. SQL/1.3 ALTER TABLE, CR TRIGGER , WHERE EXISTS, NULLIF,  CR FUNCTION, CR VIEW, JSONB.md",
     "Backend/3. Брокеры сообщений/2. RabbitMQ.md",
     "Backend/3. Брокеры сообщений/1. Kafka.md",
     "Backend/1. Go/4. Scheduler - Work stealing, Netpoll, Sysmon.md",
-    "Backend/1. Go/9. context.Background, TODO, with Cancel, Tiemout, Deadline, value, withoutCancel.md",
     "Backend/1. Go/3. Переключение горутин.md",
-    "Backend/1. Go/5. mallocgc хранилища, 3 color, Фазы GC и Green Tea GC.md",
-    "Backend/1. Go/8. Каналы hchan, select, nil.md",
-    "Backend/1. Go/7. sync Mutex, RWMutex, WaitGroup, Once, Pool, Cond, Map.md",
-    "Backend/1. Go/6. Runtime g0 gobuf gopark goready sudog polldesc.md",
-    "Backend/1. Go/10. sync atomic Load, Store, Add, Swap, CompareAndSwap.md",
-    "Devops/10. Linux ВАЖНО/Управление процессами. ps aux, PID, PPID, kill, pkill, Зомби и Сироты, top, htop.md",
-    "Devops/10. Linux ВАЖНО/Linux kernel (ядро).md",
-    "Devops/10. Linux ВАЖНО/1. Linux - самые нужные команды и утилиты.md",
-    "Devops/10. Linux ВАЖНО/8. Пакеты, ELF и динамические библиотеки.md",
-    "Devops/10. Linux ВАЖНО/7. Bash для Linux-администратора.md",
-    "Devops/10. Linux ВАЖНО/6. CPU, память и дисковый IO.md",
-    "Devops/10. Linux ВАЖНО/5. Пользователи, PAM, права, ACL и capabilities.md",
-    "Devops/10. Linux ВАЖНО/4. Загрузка Linux, systemd и системные логи.md",
-    "Devops/10. Linux ВАЖНО/3. Диски, разделы, RAID, LVM и монтирование.md",
-    "Devops/10. Linux ВАЖНО/2. Директории, основные dir. inode, dentry и ссылки.md",
-    "Devops/1. К8s/11. Requests, Limits, QoS.md",
-    "Devops/10. Linux ВАЖНО/8. Namespaces, cgroups и устройство Linux-контейнеров.md",
-    "Devops/10. Linux ВАЖНО/7. Bash, переменные, потоки, пакеты и планировщики.md",
-    "Devops/10. Linux ВАЖНО/6. CPU, память, дисковый IO и диагностика производительности.md",
-    "Devops/10. Linux ВАЖНО/5. Пользователи, права, ACL, sudo и защита хоста.md",
     "Devops/10. Linux ВАЖНО",
     "Devops/images/ChatGPT Image Aug 13, 2026, 04_39_28 PM.png",
     "Devops/images/Pasted image 20260813125811.png",
@@ -221,17 +227,11 @@
     "Backend/images/Pasted image 20260811094656.png",
     "Backend/images/Pasted image 20260805132232.png",
     "Backend/images/Pasted image 20260805132200.png",
-    "Backend/images/Pasted image 20260805132136.png",
-    "Backend/images/Pasted image 20260805080437.png",
     "Devops/9. Terraform",
     "Devops/8. Ansible",
     "Devops/7. Сети",
     "Devops/6. Примочки кубовые ВАЖНО",
-    "Backend/images/{photo_2026-07-26_17-57-32.jpg",
     "Devops/images",
-    "Devops/5. Debug ВАЖНО",
-    "Devops/4. HashiCorp Vault (ВАЖНО)",
-    "Devops/3. Gitlab",
-    "Devops/2. Git"
+    "Devops/5. Debug ВАЖНО"
   ]
 }
